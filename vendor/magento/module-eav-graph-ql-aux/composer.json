@@ -1,0 +1,29 @@
+{
+    "name": "magento/module-eav-graph-ql-aux",
+    "description": "N/A",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "0.5.0",
+    "require": {
+        "php": "~8.1.0||~8.2.0",
+        "magento/framework": "*",
+        "magento/module-eav": "*",
+        "magento/module-eav-graph-ql": "*",
+        "magento/module-store": "*"
+    },
+    "suggest": {
+        "magento/module-graph-ql": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\EavGraphQlAux\\": ""
+        }
+    }
+}
+

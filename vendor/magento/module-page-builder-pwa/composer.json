@@ -1,0 +1,30 @@
+{
+    "name": "magento/module-page-builder-pwa",
+    "description": "Provides additions to Page Builder for PWA.",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "version": "0.5.0",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-cms": "*",
+        "magento/module-page-builder": "*",
+        "magento/module-eav-graph-ql-aux": "0.5.*",
+        "php": "~8.1.0||~8.2.0",
+        "phpgt/dom": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\PageBuilderPwa\\": ""
+        }
+    }
+}
+

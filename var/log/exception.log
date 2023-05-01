@@ -1,0 +1,8 @@
+[2023-04-30T10:41:09.907474+00:00] main.ERROR: Cannot query field "newsletter_enabled" on type "StoreConfig".
+
+GraphQL (8:9)
+7:         store_name
+8:         newsletter_enabled
+           ^
+9:     }
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Cannot query field \"newsletter_enabled\" on type \"StoreConfig\". at /var/www/magento2/vendor/webonyx/graphql-php/src/Validator/Rules/FieldsOnCorrectType.php:43)"} []

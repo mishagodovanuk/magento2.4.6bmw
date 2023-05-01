@@ -1,0 +1,33 @@
+{
+    "name": "magento/module-re-captcha-graph-ql-pwa",
+    "description": "Provides GraphQl support for ReCaptcha in PWA.",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "version": "0.5.0",
+    "require": {
+        "php": "~8.1.0||~8.2.0",
+        "magento/framework": "*",
+        "magento/module-re-captcha-frontend-ui": "*",
+        "magento/module-re-captcha-validation-api": "*",
+        "magento/module-re-captcha-version-3-invisible": "*"
+    },
+    "suggest": {
+        "magento/module-graph-ql": "*",
+        "magento/security-package": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\ReCaptchaGraphQlPwa\\": ""
+        }
+    }
+}
+
