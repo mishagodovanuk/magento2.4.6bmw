@@ -337,6 +337,7 @@ return [
         'Magento_Wishlist' => 1,
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
+        'Bmw_Attributes' => 1,
         'Bmw_Cli' => 1,
         'Bmw_Posts' => 1,
         'PayPal_Braintree' => 1,

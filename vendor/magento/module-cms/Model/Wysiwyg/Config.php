@@ -207,8 +207,8 @@ class Config extends \Magento\Framework\DataObject implements ConfigInterface
             $this->configProvider->processGalleryConfig($config);
             $config->addData(
                 [
-                    'files_browser_window_width' => $this->_windowSize['width'],
-                    'files_browser_window_height' => $this->_windowSize['height'],
+                    'files_browser_window_width' => $this->_windowSize['width'] ?? '100%',
+                    'files_browser_window_height' => $this->_windowSize['height'] ?? '500px',
                 ]
             );
         }
